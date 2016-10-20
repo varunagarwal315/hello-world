@@ -6,7 +6,7 @@ const app = express()
 
 
 // Setup a server at a specific port to listen to incoming requests
-const server = app.listen(80, function(){
+const server = app.listen(8000, function(){
   console.log("server hosted at 8080");
 })
 
