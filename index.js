@@ -6,8 +6,8 @@ const app = express()
 
 
 // Setup a server at a specific port to listen to incoming requests
-const server = app.listen(8080, function(){
-  console.log("server hosted at http://127.0.0.1:8080");
+const server = app.listen(80, function(){
+  console.log("server hosted at 8080");
 })
 
 //After the server is setup, add the routers to the app for various urls
